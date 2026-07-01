@@ -9,3 +9,8 @@ spec:
   containers:
   - name: nginx
     image: nginx
+  tolerations:
+  - key: "gpu"
+    operator: "Equal"
+    value: "true"
+    effect: NoSchedule
