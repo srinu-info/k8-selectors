@@ -7,4 +7,4 @@ spec:
   - name: nginx
     image: nginx
   nodeSelector:
-    diskType: ssd
+    disktype: ssd
