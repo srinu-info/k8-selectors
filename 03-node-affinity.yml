@@ -8,7 +8,7 @@ spec:
       requiredDuringSchedulingIgnoredDuringExecution:
         nodeSelectorTerms:
         - matchExpressions:
-          - key: disktype
+          - key: memory
             operator: In
             values:
             - ssd
